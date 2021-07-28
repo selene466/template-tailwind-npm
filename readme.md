@@ -16,7 +16,7 @@ npm install
 
 ### Usage
 
-Edit "src/tailwind.css", you can create it, you can also edit [package.json](https://github.com/selene466/template-tailwind-npm/blob/master/package.json) & [tailwind.config.js](https://github.com/selene466/template-tailwind-npm/blob/master/tailwind.config.js).
+Edit "src/tailwind.css", you can also edit [package.json](https://github.com/selene466/template-tailwind-npm/blob/master/package.json) & [tailwind.config.js](https://github.com/selene466/template-tailwind-npm/blob/master/tailwind.config.js).
 
 Run development server:
 
