@@ -16,7 +16,7 @@ npm install
 
 ### Usage
 
-Edit "src/tailwind.css", you can create it, you can also edit "package.json".
+Edit "src/tailwind.css", you can create it, you can also edit [package.json](https://github.com/selene466/template-tailwind-npm/blob/master/package.json) & [tailwind.config.js](https://github.com/selene466/template-tailwind-npm/blob/master/tailwind.config.js).
 
 Run development server:
 
@@ -28,10 +28,10 @@ Will run tailwind-cli in watch mode & auto refresh web server if CSS files is
 updated, thanks to browser-sync.  
 Web browser, access [http://localhost:3000/](http://localhost:3000/).
 
-Compiling CSS with PostCSS:
+Compile CSS with PostCSS:
 
 ```
 npm run buildcss
 ```
 
-Compiled css will placed to "dist" directory.
+Compiled CSS will be placed in "dist" directory.
