@@ -1,0 +1,32 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"npm run bsrun\" \"npm run twrun\"",
+    "buildcss": "NODE_ENV=production postcss ./src/tailwind.css -o ./dist/styles.css",
+    "devcss": "NODE_ENV=development postcss ./src/tailwind.css -o ./dist/styles.css -w",
+    "bsrun": "browser-sync start --server --watch --files --no-open \"./**/*\"",
+    "twrun": "tailwindcss -i ./src/tailwind.css -o ./dist/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selene466/template-tailwind-npm.git"
+  },
+  "keywords": [],
+  "author": "selene466",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/selene466/template-tailwind-npm/issues"
+  },
+  "homepage": "https://github.com/selene466/template-tailwind-npm#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.4",
+    "concurrently": "^6.2.0",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
