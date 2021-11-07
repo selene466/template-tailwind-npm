@@ -27,6 +27,7 @@ npm run dev
 Will run tailwind-cli in watch mode & auto refresh web server if CSS files is
 updated, thanks to browser-sync.  
 Web browser, access [http://localhost:3000/](http://localhost:3000/).
+[http://localhost:3000/src/](http://localhost:3000/src/)
 
 Compile CSS with PostCSS:
 
